@@ -25,7 +25,7 @@ public class Forward extends CommandBase {
     addRequirements(db);
   }
 
-  // Called when the command is initially scheduled.
+  // Called when the command is initially scheduled
   @Override
   public void initialize() {
     m_db.arcadeDrive(0,0);

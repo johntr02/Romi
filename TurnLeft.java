@@ -21,7 +21,7 @@ public class TurnLeft extends CommandBase {
   public TurnLeft(RomiDrivetrain db, double inches) {
     m_db = db;
     distance = inches;
-    // Use addRequirements() here to declare subsystem dependencies.
+    // Use addRequirements() here to declare subsystem dependencies
     addRequirements(db);
   }
 
